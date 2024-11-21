@@ -909,21 +909,25 @@ body main section.about_us .content .bottom h5 {
   font-size: 30px;
   text-align: center;
   color: #57cfd9;
+  margin-bottom: 32px;
 }
 body main section.about_us .content .top h6 {
   font-weight: normal;
   font-size: 24px;
-  line-height: 25px;
-  margin-bottom: 36px;
+  line-height: 42px;
+  margin-bottom: 20px;
   color: #4b4b4b;
 }
 body main section.about_us .content .top p {
   width: 100%;
-  height: 107px;
+  overflow: hidden;
+  height: 140px;
   font-weight: normal;
-  line-height: 25px;
+  line-height: 32px;
   text-align: center;
   color: #4b4b4b;
+  padding-bottom: 56px;
+  font-size: 20px;
 }
 body main section.about_us .content .bottom .about_us_timelines {
   display: flex;
@@ -964,21 +968,24 @@ body main section.about_us .content .bottom .about_us_timelines .about_us_item .
   background: linear-gradient(#f7ca46 30%, #f59e1c 40%);
 }
 body main section.about_us .content .bottom .about_us_timelines .about_us_item h6 {
-  font-weight: normal;
+  padding-top: 18px;
+  font-weight: bold;
   font-size: 18px;
   line-height: 25px;
   text-align: center;
   color: #4b4b4b;
+  margin: 8px 0;
 }
 body main section.about_us .content .bottom .about_us_timelines .about_us_item p {
   width: 100%;
-  height: 43px;
+  height: 52px;
   font-weight: 300;
   font-size: 15px;
   line-height: 25px;
   text-align: center;
   color: #4b4b4b;
   overflow: hidden;
+  font-size: 17px;
 }
 body main section.products {
   margin-top: 64px;
@@ -1063,12 +1070,16 @@ body main section.products .content .items .item a {
   font-weight: bold;
 }
 body footer {
-  background: linear-gradient(rgba(222, 227, 142, 0.2) 0%, rgba(87, 207, 217, 0.2) 100%);
   background-image: url("../image/footer.png");
   background-position: bottom 0;
+  margin-top: 120px;
+}
+body footer .container {
+  z-index: 3;
+  background: linear-gradient(rgba(222, 227, 142, 0.2) 0%, rgba(87, 207, 217, 0.2) 100%);
 }
 body footer .container .content {
-  margin: 18px 80px;
+  margin: 18px 80px 0 80px;
   padding-bottom: 30px;
   padding-top: 30px;
 }
@@ -1103,8 +1114,9 @@ body footer .container .content .footer_top .brand a svg {
   margin-left: 16px;
 }
 body footer .container .content .footer_top .quick_access h6 {
-  font-size: 16px;
+  font-size: 22px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
 body footer .container .content .footer_top .quick_access ul {
   padding-right: 0;
@@ -1115,6 +1127,9 @@ body footer .container .content .footer_top .quick_access ul li {
 }
 body footer .container .content .footer_top .quick_access ul li a {
   text-decoration: none;
+  color: #4b4b4b;
+  font-size: 16px;
+  font-weight: normal;
 }
 body footer .container .content .copy_right {
   padding: 16px;
