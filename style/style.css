@@ -1076,7 +1076,6 @@ body footer {
 }
 body footer .container {
   z-index: 3;
-  background: linear-gradient(rgba(222, 227, 142, 0.2) 0%, rgba(87, 207, 217, 0.2) 100%);
 }
 body footer .container .content {
   margin: 18px 80px 0 80px;
@@ -1084,6 +1083,7 @@ body footer .container .content {
   padding-top: 30px;
 }
 body footer .container .content .footer_top {
+  padding-bottom: 30px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -1096,27 +1096,34 @@ body footer .container .content .footer_top .quick_access {
   width: 20%;
 }
 body footer .container .content .footer_top .brand {
-  height: 171px;
+  height: 190px;
   font-weight: 300;
   font-size: 15px;
   line-height: 25px;
   text-align: left;
   color: #4b4b4b;
-  overflow: hidden;
 }
 body footer .container .content .footer_top .brand a {
+  margin-top: -26px;
   text-decoration: none;
   font-size: 24px;
   display: flex;
   align-items: center;
+  color: #57cfd9;
+  font-weight: bold;
 }
 body footer .container .content .footer_top .brand a svg {
   margin-left: 16px;
 }
+body footer .container .content .footer_top .brand p {
+  margin-top: 18px;
+  line-height: 32px;
+}
 body footer .container .content .footer_top .quick_access h6 {
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 20px;
   margin-bottom: 20px;
+  color: #57cfd9;
+  font-weight: bold;
 }
 body footer .container .content .footer_top .quick_access ul {
   padding-right: 0;
@@ -1129,8 +1136,14 @@ body footer .container .content .footer_top .quick_access ul li a {
   text-decoration: none;
   color: #4b4b4b;
   font-size: 16px;
-  font-weight: normal;
+  font-weight: bold;
+  line-height: 30px;
 }
 body footer .container .content .copy_right {
   padding: 16px;
+  font-size: 18px;
+}
+body footer .container .content .copy_right a {
+  text-decoration: none;
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */
