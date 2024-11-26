@@ -2,6 +2,70 @@
   direction: rtl;
 }
 
+@font-face {
+  font-family: iranyekanBakh;
+  font-style: normal;
+  font-weight: 10;
+  font-display: swap;
+  src: url("../fonts/eot/01Fa-EnHairline.eot");
+  src: url("../fonts/eot/01Fa-EnHairline.eot?#iefix") format("embedded-opentype"), url("../fonts/woff/01Fa-EnHairline.woff") format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: iranyekanBakh;
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("../fonts/eot/02Fa-EnThin.eot");
+  src: url("../fonts/eot/02Fa-EnThin.eot?#iefix") format("embedded-opentype"), url("../fonts/woff/02Fa-EnThin.woff") format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: iranyekanBakh;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/eot/03Fa-EnLight.eot");
+  src: url("../fonts/eot/03Fa-EnLight.eot?#iefix") format("embedded-opentype"), url("../fonts/woff/03Fa-EnLight.woff") format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: iranyekanBakh;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/eot/04Fa-EnRegular.eot");
+  src: url("../fonts/eot/04Fa-EnRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/woff/04Fa-EnRegular.woff") format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: iranyekanBakh;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../fonts/eot/05Fa-EnMedium.eot");
+  src: url("../fonts/eot/05Fa-EnMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/woff/05Fa-EnMedium.woff") format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: iranyekanBakh;
+  font-style: normal;
+  font-weight: 750;
+  font-display: swap;
+  src: url("../fonts/eot/06Fa-EnBold.eot");
+  src: url("../fonts/eot/06Fa-EnBold.eot?#iefix") format("embedded-opentype"), url("../fonts/woff/06Fa-EnBold.woff") format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: iranyekanBakh;
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/eot/07Fa-EnHeavy.eot");
+  src: url("../fonts/eot/07Fa-EnHeavy.eot?#iefix") format("embedded-opentype"), url("../fonts/woff/07Fa-EnHeavy.woff") format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+  font-family: iranyekanBakh;
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("../fonts/eot/08Fa-EnFat.eot");
+  src: url("../fonts/eot/08Fa-EnFat.eot?#iefix") format("embedded-opentype"), url("../fonts/woff/08Fa-EnFat.woff") format("woff"); /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
 /* HTML5 display-role reset for older browsers */
 html {
   margin: 0;
@@ -986,6 +1050,36 @@ body main section.about_us .content .bottom .about_us_timelines .about_us_item p
   color: #4b4b4b;
   overflow: hidden;
   font-size: 17px;
+}
+body main section.instagram {
+  font-family: iranyekanBakh;
+  font-size: 24px;
+  font-weight: 800;
+  height: 200px;
+  display: flex;
+  margin: 280px 80px;
+  color: white;
+  margin-bottom: 200px;
+  align-items: center;
+  margin-top: 200px;
+  background: linear-gradient(#dee38e 7%, #57CFDB 70%);
+  border-radius: 30px;
+}
+body main section.instagram img {
+  margin-top: -116px;
+}
+body main section.instagram a {
+  color: #57CFDB;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 80px;
+  background-color: #fff;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+body main section.instagram a:hover {
+  transition: all 1s;
+  scale: 1.1;
 }
 body main section.products {
   margin-top: 64px;
